@@ -24,7 +24,7 @@ body {
 }
 
 #app {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
   max-width: 40rem;
   margin: 0 auto;
@@ -62,7 +62,7 @@ button {
 }
 
 input {
-  background-color: #1c1a1d;
+  background-color: #1c1a1d70;
   border: 1px solid #d243f61f;
   border-radius: 0.25rem;
   color: #e5e5e5;

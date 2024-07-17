@@ -2,10 +2,10 @@
 export default {
   data() {
     return {
-      login: 'johndoe',
-      name: 'john Doe',
-      bio: '...',
-      company: 'Acme Inc.',
+      login: 'login',
+      name: 'name',
+      bio: 'bio',
+      company: 'company',
       avatar_url: 'https://unsplash.it/800/600',
       searchInput: '',
     }
@@ -28,9 +28,9 @@ export default {
 </script>
 
 <template>
-  <h1>GitHub User Data</h1>
+  <h1>Query users on GitHub</h1>
   <input type="text" v-model="searchInput" />
-  <button v-on:click="fetchGithubUser">Carregar Usuário</button>
+  <button v-on:click="fetchGithubUser">Query</button>
   <img v-bind:src="avatar_url" />
   <strong>@{{ login }}</strong>
   <h2>{{ name }}</h2>
